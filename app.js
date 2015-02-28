@@ -1,4 +1,4 @@
-var newsApp = angular.module('newsApp', ['ui.router']);
+var beatsApp = angular.module('beatsApp', ['ui.router']);
 
   beatsApp.config(function($stateProvider) {
     $stateProvider.state('beats', {
